@@ -3,8 +3,7 @@ const mongoose = require("mongoose")
 const connectToDb = async () => {
   try {
     try {
-      await mongoose.connect("mongodb+srv://saptadev27:saptadev27@cluster0.lofv3yp.mongodb.net/")
-      console.log("Database is connected successfully")
+      await mongoose.connect("URL")
     }
     catch (error) {
       console.log(error)
